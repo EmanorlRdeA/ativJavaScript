@@ -1,0 +1,15 @@
+function somaNotasAcimaDe6(notas) {
+let soma = 0
+notas.forEach(function(nota){
+  if(nota>=6) {
+    soma = soma + nota
+  }
+})
+return soma
+}
+
+
+
+// Não modifique as linhas abaixo
+somaNotasAcimaDe6([10, 5, 8, 3, 4, 9, 9]) // deveria retornar 61
+somaNotasAcimaDe6([8, 4, 9, 0, 8]) // deveria retornar 38

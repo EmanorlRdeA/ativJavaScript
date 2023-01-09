@@ -1,0 +1,10 @@
+function senhaEValida(senha) {
+    console.log(senha.trim)
+if(senha.length>=13){
+    return true
+}
+else{
+    return false
+}
+}
+	

@@ -1,0 +1,15 @@
+function obterSomaDeTodasAsNotas(notas) {
+let soma = 0
+notas.forEach(function(notas){
+soma = soma + notas
+})
+return soma
+}
+
+function obterMediaDeTodasAsNotas(notas) {
+let soma = 0
+notas.forEach(function(notas){
+  soma = soma + notas 
+})
+return soma / notas.length
+}

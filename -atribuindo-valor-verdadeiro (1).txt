@@ -1,0 +1,4 @@
+// escreva sua solução abaixo
+let nome = "Roberto"
+let idade = 32
+let jaVotou = true

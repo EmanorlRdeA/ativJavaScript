@@ -1,0 +1,19 @@
+function adicionarItem(itens, item) {
+  itens.push(item)
+  return itens
+
+}
+ 
+function exportarMinusculasCSV(itens) {
+  //let resultado = itens.map(function(item){
+    //return item.toLowerCase()
+  //}).join(", ")
+//console.log(resultado)
+//}
+
+let minuscula = itens.map(function(item){
+  return item.toLowerCase()
+})
+let resultado = minuscula.join(", ")
+return resultado
+}

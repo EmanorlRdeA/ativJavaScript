@@ -1,0 +1,11 @@
+function adicionarItem(itens, item) {
+itens.push(item)
+return itens
+}
+ 
+function exportarMinusculasCSV(itens) {
+let minuscula = itens.map(function(item){
+  return item.toLowerCase()
+}).join(", ")
+return minuscula
+}

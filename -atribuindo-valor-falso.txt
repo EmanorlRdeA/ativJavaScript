@@ -1,0 +1,4 @@
+// escreva sua solução abaixo
+let nome = "João"
+let idade = 15
+let podeVotar = false

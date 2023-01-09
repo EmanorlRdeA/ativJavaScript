@@ -1,0 +1,10 @@
+function pegueNome(nome) {
+  let pego = nome
+ pego = pego.trim()
+ pego = pego.toUpperCase()
+   return pego 
+}
+
+// Exemplo de uso - não modifique
+console.log(pegueNome(" bruno"))
+console.log(pegueNome(" alex  "))
